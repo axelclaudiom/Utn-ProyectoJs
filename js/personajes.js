@@ -8,7 +8,7 @@ fetch("https://hp-api.onrender.com/api/characters")
         if (personaje.image) {
             const card = document.createElement("div");
             card.classList.add("card");
-            console.log(personaje)
+            //console.log(personaje)
             card.innerHTML = `
                                 <img src="${personaje.image}" alt="${personaje.name}">
                                 <div class="card-content">
