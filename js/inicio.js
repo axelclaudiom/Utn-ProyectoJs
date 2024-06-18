@@ -7,14 +7,14 @@ $buttonPersonajes.addEventListener("click" , (e) => {
 
 const $buttonCasas = document.getElementById('casasButton');
 
-$buttonPersonajes.addEventListener("click" , (e) => {
+$buttonCasas.addEventListener("click" , (e) => {
     e.preventDefault();
     console.log("Casas")
 })
 
 const $buttonHechizos = document.getElementById('hechizosButton');
 
-$buttonPersonajes.addEventListener("click" , (e) => {
+$buttonHechizos.addEventListener("click" , (e) => {
     e.preventDefault();
     console.log("Hechizos")
 })
