@@ -4,7 +4,7 @@ $buttonPersonajes.addEventListener("click" , (e) => {
     e.preventDefault();
     //console.log("Personajes")
     const template = `
-    <h3>Personajes</h3>
+    <h2>Personajes</h2>
 	<p>Descubre la historia, las características y las curiosidades de tus personajes favoritos, desde el valiente Harry Potter y sus amigos Hermione Granger y Ron Weasley, hasta los enigmáticos Severus Snape y Lord Voldemort. Cada personaje tiene su propia magia y secretos que te invitamos a conocer.</p>
 `
 	const data = document.getElementById('data')
@@ -17,7 +17,7 @@ $buttonCasas.addEventListener("click" , (e) => {
     e.preventDefault();
     //console.log("Casas")
     const template = `
-    <h3>Casas</h3>
+    <h2>Casas</h2>
 	<p>Adéntrate en el espíritu de las cuatro casas de Hogwarts: Gryffindor, Hufflepuff, Ravenclaw y Slytherin. Aprende sobre sus fundadores, sus valores y las características que definen a sus miembros. ¿A cuál casa perteneces tú?.</p>
 `
 	const data = document.getElementById('data')
@@ -30,7 +30,7 @@ $buttonHechizos.addEventListener("click" , (e) => {
     e.preventDefault();
     //console.log("Hechizos")
     const template = `
-    <h3>Hechizos</h3>
+    <h2>Hechizos</h2>
 	<p>La magia está en el corazón de este mundo, y los hechizos son la herramienta principal de todo mago y bruja. Aquí encontrarás una guía completa de los hechizos más importantes, desde el encantamiento más sencillo hasta los hechizos más complejos y poderosos.
 Prepárate para un viaje mágico lleno de descubrimientos y maravillas. ¡Bienvenido a nuestra comunidad de amantes de Harry Potter!</p>
 `
