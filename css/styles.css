@@ -59,7 +59,7 @@ footer {
 
 @font-face {
   font-family: 'Harry P';
-  src: url('../fonts/harryp.ttf');
+  src: url('../assets/fonts/harryp.ttf');
 }
 
 h2 {
@@ -74,6 +74,7 @@ h2 {
 .buttons button {
   background-color: var(--primary-color);
   border: none;
+  margin-left: 10px;
   border-radius: 3px;
   height: 50px;
   width: 120px;
@@ -91,13 +92,13 @@ h2 {
   width: 300px;
   height: auto;
   border-radius: 20px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   margin-top: 40px;
 }
 
 .card img {
   width: 100%;
-  height: 300px;
+  height: 350px;
   border-radius: 20px 20px 0px 0px;
 }
 
@@ -112,4 +113,63 @@ h2 {
 .card-content p {
   text-align: left;
   margin-left: 10px;
+}
+
+.informacion #data {
+  border-radius: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  height: 380px;
+}
+
+.informacion #data-content {
+  display: flex;
+  width: 800px;
+  height: 250px;
+  padding-bottom: 150px;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin: auto;
+}
+
+.informacion #data-content img {
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .grid {
+     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .grid {
+     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .grid {
+     grid-template-columns: repeat(1, 1fr);
+  }
+  .buttons {
+    display: flex;
+  }
+
+  .informacion {
+    margin-top: 30px;
+    padding-bottom: 80px;
+  }
+ 
+  .informacion #data{
+    height: 100%;
+  } 
+
+  .informacion #data-content {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
 }
